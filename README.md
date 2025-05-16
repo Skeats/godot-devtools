@@ -19,6 +19,9 @@ All of the functionality described below can be accessed using the new `DevTools
 > [!NOTE] 
 > To open the dev menu, press the `~` key.
 
+## Installation
+To install the plugin, simply download the latest release on the right, and add the `dev_tools` folder into the addons folder of your Godot project
+
 ## The Console
 The most basic way to use the console is fairly easy. First, you create a function that does whatever you want the command to do. Some basic rules about the function are as follows:
 - It is HIGHLY recommended (if not required) that you statically type the arguments in your functions.
