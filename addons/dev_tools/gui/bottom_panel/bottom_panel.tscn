@@ -1,0 +1,30 @@
+[gd_scene load_steps=2 format=3 uid="uid://bt7gixscume8o"]
+
+[ext_resource type="Script" uid="uid://ciou1h7xwspfm" path="res://addons/dev_tools/gui/bottom_panel/bottom_panel.gd" id="1_sa37v"]
+
+[node name="BottomPanel" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_sa37v")
+
+[node name="Layout" type="VBoxContainer" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="ControlBar" type="HBoxContainer" parent="Layout"]
+layout_mode = 2
+
+[node name="Version" type="Label" parent="Layout/ControlBar"]
+layout_mode = 2
+text = "DevTools Ver."
+
+[node name="TabContainer" type="TabContainer" parent="Layout"]
+layout_mode = 2

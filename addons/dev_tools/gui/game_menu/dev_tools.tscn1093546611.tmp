@@ -1,0 +1,18 @@
+[gd_scene load_steps=2 format=3 uid="uid://cr0tnd6e3np1v"]
+
+[ext_resource type="Script" uid="uid://cyk0o0ceewpdj" path="res://addons/dev_tools/gui/console/console.gd" id="1_7und3"]
+
+[node name="DevTools" type="TabContainer"]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+current_tab = 0
+
+[node name="Console" type="Control" parent="."]
+process_mode = 3
+layout_mode = 2
+script = ExtResource("1_7und3")
+metadata/_custom_type_script = "uid://cyk0o0ceewpdj"
+metadata/_tab_index = 0
