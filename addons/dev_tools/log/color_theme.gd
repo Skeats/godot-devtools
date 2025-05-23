@@ -1,0 +1,59 @@
+class_name ColorTheme
+extends Resource
+
+@export var theme_name: StringName = "TerminalSafe"
+
+@export var SRC: Color = Color.CYAN
+@export var ADDONS: Color = Color.RED
+@export var TEST: Color = Color.GREEN
+@export var comma_color: Color = Color.RED
+@export var open_parentheses_color: Color = Color.RED
+@export var close_parentheses_color: Color = Color.RED
+@export var open_bracket_color: Color = Color.RED
+@export var close_bracket_color: Color = Color.RED
+@export var open_curly_color: Color = Color.RED
+@export var close_curly_color: Color = Color.RED
+@export var ampersand_color: Color = Color.ORANGE
+@export var carat_color: Color = Color.ORANGE
+@export var dict_key_color: Color = Color.MAGENTA
+@export var vector_value_color: Color = Color.GREEN
+@export var class_name_color: Color = Color.MAGENTA
+@export var TYPE_NIL: Color = Color.PINK
+@export var TYPE_BOOL: Color = Color.PINK
+@export var TYPE_INT: Color = Color.GREEN
+@export var TYPE_FLOAT: Color = Color.GREEN
+@export var TYPE_STRING: Color = Color.PINK
+@export var TYPE_VECTOR2: Color = Color.GREEN
+@export var TYPE_VECTOR2I: Color = Color.GREEN
+@export var TYPE_RECT2: Color = Color.GREEN
+@export var TYPE_RECT2I: Color = Color.GREEN
+@export var TYPE_VECTOR3: Color = Color.GREEN
+@export var TYPE_VECTOR3I: Color = Color.GREEN
+@export var TYPE_TRANSFORM2D: Color = Color.PINK
+@export var TYPE_VECTOR4: Color = Color.GREEN
+@export var TYPE_VECTOR4I: Color = Color.GREEN
+@export var TYPE_PLANE: Color = Color.PINK
+@export var TYPE_QUATERNION: Color = Color.PINK
+@export var TYPE_AABB: Color = Color.PINK
+@export var TYPE_BASIS: Color = Color.PINK
+@export var TYPE_TRANSFORM3D: Color = Color.PINK
+@export var TYPE_PROJECTION: Color = Color.PINK
+@export var TYPE_COLOR: Color = Color.PINK
+@export var TYPE_STRING_NAME: Color = Color.PINK
+@export var TYPE_NODE_PATH: Color = Color.PINK
+@export var TYPE_RID: Color = Color.PINK
+@export var TYPE_OBJECT: Color = Color.PINK
+@export var TYPE_CALLABLE: Color = Color.PINK
+@export var TYPE_SIGNAL: Color = Color.PINK
+@export var TYPE_DICTIONARY: Color = Color.PINK
+@export var TYPE_ARRAY: Color = Color.PINK
+@export var TYPE_PACKED_BYTE_ARRAY: Color = Color.PINK
+@export var TYPE_PACKED_INT32_ARRAY: Color
+@export var TYPE_PACKED_INT64_ARRAY: Color = Color.PINK
+@export var TYPE_PACKED_FLOAT32_ARRAY: Color = Color.PINK
+@export var TYPE_PACKED_FLOAT64_ARRAY: Color = Color.PINK
+@export var TYPE_PACKED_STRING_ARRAY: Color = Color.PINK
+@export var TYPE_PACKED_VECTOR2_ARRAY: Color = Color.PINK
+@export var TYPE_PACKED_VECTOR3_ARRAY: Color = Color.PINK
+@export var TYPE_PACKED_COLOR_ARRAY: Color = Color.PINK
+@export var TYPE_MAX: Color = Color.PINK

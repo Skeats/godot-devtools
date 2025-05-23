@@ -12,6 +12,7 @@ config_version=5
 
 config/name="Godot Devtools"
 config/version="1.0.0"
+config/tags=PackedStringArray("plugin")
 run/main_scene="uid://0td0hkrwgcxh"
 config/features=PackedStringArray("4.4", "Forward Plus")
 config/icon="res://icon.svg"

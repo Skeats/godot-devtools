@@ -49,7 +49,7 @@ func add_to_tab() -> void:
 	tabs[0].add_prop(self)
 
 func get_property() -> Variant:
-	if _parent:
+	if _parent and prop_value and prop_property:
 		return _parent.get_node(prop_value).get_indexed(prop_property)
 	else:
 		return null
